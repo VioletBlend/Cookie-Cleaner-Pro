@@ -6,7 +6,7 @@
 
 <br>
 
-# How to use
+# How to use (?)
 
 Click the extension icon to open the settings panel.
 
