@@ -6,6 +6,17 @@
 
 <br>
 
+# How to use
+
+Click the extension icon to open the settings panel.
+
+In the form provided, enter the URL of any website whose cookies you do not want to remove.
+
+Once entered, add it to the exclusion list to ensure that its cookies are kept.
+<br>
+
+<br>
+
 # License 
 
 (The MIT License) 
