@@ -17,15 +17,13 @@ Once entered, add it to the exclusion list to ensure that its cookies are kept.
 
 <br>
 
-# other
+# Additional Notes
 
 If you want to keep your YouTube account logged in, 
 
 make sure to add “google.com” to the exclusion list separately. 
 
 Without this step, you may be logged out unintentionally.
-
-<br>
 
 <br>
 
