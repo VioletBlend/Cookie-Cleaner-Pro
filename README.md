@@ -19,6 +19,6 @@ Once entered, add it to the exclusion list to ensure that its cookies are kept.
 
 # License 
 
-(The MIT License) 
+© 2026 @VioletBlend.
 
-Copyright (c) 2026 VioletBlend
+This repository is licensed under the terms specified by the author.
