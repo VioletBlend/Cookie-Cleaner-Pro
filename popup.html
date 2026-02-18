@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Cookie Cleaner Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Cookie Cleaner Pro</h2>
+
+  <label>除外ドメイン（URLでも可）</label>
+  <input id="inputDomain" type="text" placeholder="example.com または URL を入力">
+
+  <button id="addBtn" class="icon-btn primary">
+    <span class="icon">＋</span> 追加
+  </button>
+
+  <div id="cardList"></div>
+
+  <div class="btn-row">
+    <button id="save" class="icon-btn primary">
+      <span class="icon">💾</span> 保存
+    </button>
+
+    <button id="clean" class="icon-btn danger">
+      <span class="icon">🧹</span> クリーン実行
+    </button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

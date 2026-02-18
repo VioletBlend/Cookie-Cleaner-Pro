@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Cookie Cleaner Pro",
+  "version": "1.0",
+  "description": "Delete cookies except for excluded domains. Includes cache/history cleaning.",
+  "permissions": ["cookies", "storage", "browsingData"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

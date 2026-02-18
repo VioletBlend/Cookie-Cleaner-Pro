@@ -1,0 +1,144 @@
+/* ===========================
+   Popup サイズ最適化
+=========================== */
+html, body {
+  width: 380px;      /* 横幅を広く */
+  height: 520px;     /* 高さ固定 */
+  overflow-y: auto;  /* 内容が多いときスクロール */
+  margin: 0;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* ===========================
+   テキスト
+=========================== */
+h2 {
+  margin-top: 0;
+  font-weight: 600;
+  color: var(--text-strong);
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* ===========================
+   入力フォーム
+=========================== */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--input-bg);
+  color: var(--text);
+  transition: 0.2s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4a8df6;
+  box-shadow: 0 0 0 3px rgba(74,141,246,0.25);
+}
+
+/* ===========================
+   ボタン
+=========================== */
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.icon {
+  font-size: 16px;
+}
+
+.primary {
+  background: #4a8df6;
+  color: white;
+}
+
+.primary:hover {
+  background: #3a7be0;
+}
+
+.danger {
+  background: #e04f4f;
+  color: white;
+}
+
+.danger:hover {
+  background: #c63f3f;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+/* ===========================
+   カード風リスト
+=========================== */
+#cardList {
+  margin-top: 10px;
+  max-height: 260px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #e04f4f;
+  font-size: 18px;
+}
+
+/* ===========================
+   ダークモード対応
+=========================== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1e1e1e;
+    --text: #e6e6e6;
+    --text-strong: #ffffff;
+    --border: #444;
+    --input-bg: #2a2a2a;
+    --card-bg: #2a2a2a;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f5f7fa;
+    --text: #333;
+    --text-strong: #2a2f45;
+    --border: #ccd2e0;
+    --input-bg: #ffffff;
+    --card-bg: #ffffff;
+  }
+}
